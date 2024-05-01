@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+keras_cv_modified.egg-info/PKG-INFO
+keras_cv_modified.egg-info/SOURCES.txt
+keras_cv_modified.egg-info/dependency_links.txt
+keras_cv_modified.egg-info/requires.txt
+keras_cv_modified.egg-info/top_level.txt

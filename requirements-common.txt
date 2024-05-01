@@ -1,0 +1,17 @@
+#https://github.com/keras-team/keras-cv/blob/master/requirements-common.txt
+# Library deps.
+absl-py
+regex
+pandas
+kagglehub
+keras-core>=0.1.6
+tensorflow-datasets
+pycocotools
+# Tooling deps.
+packaging
+flake8
+isort
+black
+pytest
+build
+namex>=0.0.8

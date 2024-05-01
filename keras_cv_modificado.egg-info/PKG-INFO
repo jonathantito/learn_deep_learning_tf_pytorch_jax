@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: keras-cv-modificado
+Version: 0.10.0
+Summary: Usado como base para aprender deep learning en un PC con vscode sobre un devcontainer
+Home-page: https://github.com/keras-team/keras-cv
+Author: Keras team, Jonathan Eduardo Tito Ontaneda
+Author-email: keras-cv@google.com,titoontaneda.eco.ai.tech@gmail.com
+License: Apache License 2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: packaging
+Requires-Dist: absl-py
+Requires-Dist: regex
+Requires-Dist: tensorflow-datasets
+Requires-Dist: keras-core
+Requires-Dist: kagglehub
+Provides-Extra: tests
+Requires-Dist: flake8; extra == "tests"
+Requires-Dist: isort; extra == "tests"
+Requires-Dist: black[jupyter]; extra == "tests"
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: pycocotools; extra == "tests"
+Provides-Extra: examples
+Requires-Dist: tensorflow_datasets; extra == "examples"
+Requires-Dist: matplotlib; extra == "examples"
+
+# KerasCV Modificado 
+Se modificó KerasCV para poder usar tensorflow en un PC con CPU (sin GPU) en vscode sobre un devcontainer

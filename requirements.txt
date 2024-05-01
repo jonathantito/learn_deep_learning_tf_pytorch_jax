@@ -1,0 +1,15 @@
+#https://github.com/keras-team/keras-cv/blob/master/requirements.txt
+# TensorFlow.
+tensorflow-cpu>=2.16.1
+
+# Torch.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Jax.
+jax[cpu]
+
+#Jupyter Notebooks
+ipykernel
+-r requirements-common.txt
